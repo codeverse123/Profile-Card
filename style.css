@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: "Bai Jamjuree", sans-serif;
+}
+body {
+    background-color: #212121;
+}
+
+.profile_card {
+    background-color: white;
+    height: 350px;
+    width: 280px;
+    box-shadow: 2px 2px 7px rgb(66, 109, 173);
+    border-radius: 10px;
+    margin: 5% auto;
+}
+
+.blue_bg {
+    background-color: #e787ff;
+    height: 100px;
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5% auto;
+}
+
+
+.profile_logo {
+    border-radius: 50%;
+    padding: 5px;
+    width: 95px;
+    border: 3px solid #00A9FF;
+    display: block;
+    margin: 0% auto;
+    box-shadow: 1px 1px 7px #212121;
+
+}
+
+.logo {
+    margin-top: -90px;
+}
+
+
+.text {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    width: 29.5%;
+    margin: 10px auto;
+}
+
+.social_logo {
+    filter: grayscale(100%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    padding: 2px;
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.social_logo:hover {
+    filter: grayscale(0%);
+}
+
+.social_media {
+    margin-top: 20px;
+    display: flex;
+    width: 60%;
+    margin: 8% auto;
+}
+
+.f_logo {
+    border: 2px solid #00A9FF;
+}
+
+.i_logo {
+    border: 2px solid #FD1D1D;
+}
+
+.t_logo {
+    border: 2px solid #00A9FF;
+}
+
+.y_logo {
+    border: 2px solid #f84343;
+}
+
+.fm{
+    padding: 10px;
+    width: 58%;
+    display: block;
+    margin: 10% auto;
+}
+.btn{
+    padding: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: #00A9FF;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:1px 1px 10px #569ee0;
+    transition: all 1s ease-in-out;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
